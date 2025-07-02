@@ -8,7 +8,7 @@ data1, data2, data3, data4 = "","","",""
 sql=""
 
 #메인 코드
-conn = pymysql.connect(host='127.0.0.1', user='root', password='3032', db='soloDB', charset='utf8')
+conn = pymysql.connect(host='127.0.0.1', user='root', password='비공개', db='soloDB', charset='utf8')
 cur = conn.cursor()
 
 while (True):
