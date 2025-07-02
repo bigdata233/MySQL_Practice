@@ -1,5 +1,5 @@
 import pymysql
-conn = pymysql.connect(host='127.0.0.1', user='root', password = '3032', db='soloDB', charset='utf8')
+conn = pymysql.connect(host='127.0.0.1', user='root', password = '비공개', db='soloDB', charset='utf8')
 
 cur = conn.cursor()
 cur.execute("create table userTable (id char(4), userName char(15), email char(20), birthYear int)")
